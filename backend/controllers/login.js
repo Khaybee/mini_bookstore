@@ -20,7 +20,8 @@ const login = async (req, res)=> {
           const checkUser = await runQuery(connection, loginSyntax, [credentials.username])
           const checkPass = await bcrypt.compare(credentials.userpassword, checkUser[0].userpassword)
 
-          if (checkPass){
+          // if (checkPass){
+               if (credentials.userpassword === checkUser[0].userpassword){
                const token = jwt.sign(credentials, secretKey)
                console.log(token)
                res.status(200).json({message: checkUser})
