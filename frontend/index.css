@@ -1,0 +1,61 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body, html {
+     padding: 0;
+     margin: 0;
+     overflow: hidden;
+}
+
+.background_color{
+     background-color: #FFFAF0;
+     height: 100vh;
+}
+
+.formSize {
+     width: 65%;
+}
+
+button {
+     /* background-color: #DA5238; */
+     background-color: #DB5339;
+}
+
+button:hover {
+     background-color: #e76247;
+}
+
+.googleButton{
+     background-color: #e2dad9;
+}
+
+.googleButton:hover{
+     background-color: #bba9a5;
+}
+
+a {
+     color: #e16a52;
+}
+
+a:hover {
+     color: #9c240c;
+}
+
+.rememberFlex{
+     font-size: 0.9rem;
+}
+
+.termsConditions{
+     font-size: 0.8rem;
+}
+
+input{
+     border: 1px solid #7f7b7b;
+}
+
+/* .usernameErr, .emailErr, .passwordErr, .confirmPasswordErr{
+     
+} */

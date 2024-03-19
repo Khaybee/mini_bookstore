@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>SignUp Page</title>
+  </head>
+  <body>
+    <div class="background_color d-flex">
+        <div class="d-flex justify-content-center align-items-center   col-6">
+          <img src="./Images/book_cover_face.jpg" alt="girl reading with book covering face" width class=" mt-5"/>
+        </div>
+      <div class="col-6 d-flex ms-3 justify- align-items-center">
+          <div class="  formSize">
+               <div>
+                    <h1 class="text-center mb-md-4 fw-bold">Sign Up</h1>
+                    <form action="">
+                         <div class="mb-4 errorWarning" id="errorWarning">
+                              <label for="username" class="d-block fw-semibold">Username</label>
+                              <input type="text" id="username" class="w-100 rounded-2 py-1 px-2">
+                         </div>
+                         <div class="mb-4 errorWarning"  id="">
+                              <label for="email" class="d-block fw-semibold">Email</label>
+                              <input type="email" id="email" class="w-100 rounded-2 py-1 px-2">
+                         </div>
+                         <div class="mb-4 errorWarning"  id="">
+                              <label for="password" class="d-block fw-semibold">Password</label>
+                              <input type="text" id="password" class="w-100 rounded-2 py-1 px-2" placeholder="*****">
+                         </div>
+                         <div class="mb-1 errorWarning"  id="">
+                              <label for="confirmPassword" class="d-block fw-semibold">Confirm Password</label>
+                              <input type="text" id="confirmPassword" class="w-100 rounded-2 py-1 px-2" placeholder="*****">
+                         </div>
+                         
+                         
+                         <div class="d-flex">
+                              <input type="checkbox" name="checkbox" id="checkbox">
+                              <span class="termsConditions ps-1">I agree to the <a href="#" class="text-decoration-none">Terms & Conditions</a>, <a href="#"  class="text-decoration-none">Privacy Policy</a> and <a href="#"  class="text-decoration-none">Terms of Service</a>.</span>
+                         </div>
+                         <button class="mt-md-4 w-100 p-1 rounded-2  text-white fw-bold" type="button" id="signup_Button">SIGN UP</button>
+                         <div class="mt-2 text-center"><span>Already have an account?</span>
+                              <a href="login.html" class="text-decoration-none text-decoration-underline">Login</a></div>
+                         <button class="w-100 mt-md-4 p-1 rounded-2 googleButton">Sign Up with Google</button>
+                    </form>
+               </div>
+          </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
